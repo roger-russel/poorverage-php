@@ -1,0 +1,25 @@
+{
+    "name": "roger-russel/poorverage",
+    "description": "A simple coverage badges generator and publisher on gh-pages",
+    "keywords":["cooverage", "gh-pages", "badges", "cooverage-badge"],
+    "type":"library",
+    "license":"MIT",
+    "authors": [
+        {
+            "name": "Roger Russel",
+            "email": "roger@rrussel.org"
+        }
+    ],
+    "autoload":{
+      "psr-4":{
+        "Poorverage\\": "src\\"
+      }
+    },
+    "bin": [
+      "poorverage"
+    ],
+    "require": {},
+    "require-dev": {
+        "codeception/codeception": "^2.4"
+    }
+}
